@@ -1,0 +1,508 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;;
+}
+.topo{
+    height: 30px;
+    background-color: #333;
+    
+    
+   
+}
+
+.topoint{
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;   
+    margin: auto;
+    
+}
+.topoesq{
+    width: 50%;
+    height: 30px;
+    float: left;
+   
+    
+}
+
+.topoesq ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.topoesq li{
+    display: inline;   
+    line-height: 30px;
+   
+    
+}
+.topoesq li a{
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block; /*deixa o bloco maior preenchedo*/
+    
+} 
+
+ .buscador{   
+     margin-top:2px;  
+     margin-bottom:2px;  
+     width: 130px;
+     height: 26px;     
+     float: right;
+     outline: 0;
+
+ }
+ .topodir{
+    width: 50%;
+    height: 30px;
+    float: right;
+}
+
+
+ .topodir ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    
+    
+}
+.topodir li{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.topodir li a{
+    display: block;
+    padding: 9px;
+    color: whitesmoke;  
+    
+
+    
+} 
+.topodir li a:hover{
+    background-color: #ac3234;   
+    transform: scale(1.6) rotate(25deg);
+    
+    
+}
+
+ .topo2{
+     height: 100px;
+     color:#000;
+ }
+
+ .topo2int{
+     width: 100%;
+     max-width: 1040px;
+     height: 100px;
+     margin:auto;
+     
+ }
+
+ .logo {
+     width:300px;
+     height: 85px;
+     float: left;    
+     margin-top: 5px;     
+     }
+    .info{
+        margin-top: 5px;
+        width: 300px;
+        height: 85px;
+        float: right;
+   }
+    .telefone{
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: end;
+        color:#ac3234;
+        
+    }
+  
+    .funcionamento{
+        font-size: 15px;
+        text-align: end;
+        color: #ac3234;
+        
+    }
+
+    .menu{
+        height: 40px;
+        background-color: #ac3234;
+        
+    }
+    .menuint{
+        width: 100%;
+        max-width: 1040;
+        height: 40px;
+        margin: auto;
+        background-color:#ac3234;
+    }
+
+    .menu ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .menu li{
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 30px;
+        font-size: 14px;
+    }
+    .menu a{
+        color:whitesmoke;
+        text-decoration: none;
+
+    }
+    .menu li:hover .submenu{
+        display: block;
+    }
+    .submenu{
+        width: 150px;    
+        background-color: #ac3234;
+        position: absolute;
+        display: none;
+    }
+ 
+    .submenuitem{
+        width: 140px;
+        height: 30px;
+        line-height: 30px;        
+        padding-left: 10px;
+        
+
+    }
+
+    .submenuitem:hover{
+        background-color:rgb(87, 6, 6);
+        border-bottom: 1px solid gray;
+
+    }
+
+
+    .ultimasnoticias{
+        height: 40px;
+    }
+    
+    .ultimasnoticiasint{
+        width: 100%;
+        max-width: 1040px;
+        height: 40px;
+        margin: auto;
+        
+    }
+    .ultnoticiasarea{
+        height: 28px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+    }
+
+    .titulo{
+        background-color:#ac3234;
+        color: blanchedalmond;
+        height: 28px;
+        line-height: 28px;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+    .conteudo{
+        color:#000;
+        height: 28px;
+        line-height: 28px;
+        display: inline-block;
+        padding-left: 5px;
+        font-size: 14;
+
+    }
+
+.containerint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    
+}
+.ladodireito{
+    width: 275;
+    min-height: 200px;
+    float: right;    
+    margin-left: 12px;
+}
+.ladoesquerdo{
+    float: left;
+    width: 753px;
+}
+.slideshow{
+    height: 431px;
+    overflow: hidden;
+    margin-bottom: 20px
+}
+.slideshowarea{
+    height: 431px;
+}
+.slide{
+    height: 431px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.widget
+{
+    border:1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.widgettitulo{
+    height: 30px;
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 14px;  
+
+}
+.noticiaarea1{
+    width: 430px;
+    height: 420px ;
+    float: left;
+}
+.noticiaarea2{
+    width: 320px;
+    height: 420px ;
+    float: left;
+    
+}
+.noticiaitem{
+    text-align: left;
+    height: 88px;
+    margin-top: 7px ;
+    margin-bottom: 7px;
+}
+
+.noticiaimg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    float: left;
+}
+.noticiatitulo{
+    width: 226px;
+    float: left;
+    font-size: 16px;
+    margin-left: 6px;
+}
+.noticiainfo{
+    width: 226px;
+    float: left;
+    font-size: 14px;
+    color: #ccc;
+    margin-left: 6px;
+    
+}
+.noticiabig{
+    margin-left: 10px;
+}
+.noticiabig .noticiaimg{
+    width: 384px;
+    height: 222px;
+}
+.noticiabig .noticiaimg img{
+    width: 384px;
+    height: 222px;    
+}
+.noticiabig .noticiatitulo{
+    font-size: 30px;
+    width: 384px;
+
+}
+
+.widgetconteudo{
+    text-align: center ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  
+}
+
+.widget ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget li{
+    
+    display: inline-block;
+
+}
+.widget li a{
+    color:#ac3234;
+    font-size: 16px;
+    padding: 4px;
+    text-decoration: none;
+    
+}
+
+.noticia{
+    font-size: 14px;
+    margin:0 10px;
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+.noticia a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (min-width:906px) and (max-width:1057px)
+{
+    .topoint,
+    .topo2int,
+    .menuint,
+    .ultimasnoticiasint,
+    .containerint{
+        max-width: 890px;
+    }
+    .menu li{
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+    
+    .ladoesquerdo{
+        width: 600px;
+    }
+    .noticiaarea1{
+        width: 278px;
+    }
+    .noticiabig  .noticiaimg{
+        width: 245px;
+    }
+    .noticiabig  .noticiaimg img{
+        width: 245px;
+    }
+    .noticiabig .noticiatitulo{
+        width:245px;
+        font-size:25px;
+    }
+    
+}
+
+@media only screen and (min-width:783px) and (max-width:906px)
+{
+    .topoint, .topo2int, .menuint, .ultimasnoticiasint, .containerint{
+        max-width: 758px;
+    }
+    .menu li{
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+   .ladodireito{
+       display:none;
+   }
+    
+    .ladoesquerdo{
+        width: auto;
+        float: none;
+    }
+    .noticiaarea1{
+        width: 446px;
+    }
+    .noticiabig  .noticiaimg{
+        width: 415px;
+    }
+    .noticiabig  .noticiaimg img{
+        width: 415px;
+    }
+    .noticiabig .noticiatitulo{
+        width:415px;
+        font-size:25px;
+    }
+    .conteudo{
+        font-size: 12px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:783px)
+{
+    .topoint, .topo2int, .menuint, .ultimasnoticiasint, .containerint{
+        max-width: 758px;
+    }
+    .ultimasnoticias{
+        display: none:
+    }
+    .menu li{
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+   .ladodireito{
+       display:none;
+   }
+    .topoesq{
+        display: none;
+    }
+    .ladoesquerdo{
+        width: auto;
+        float: none;
+    }
+    .noticiaarea1{
+        width: 446px;
+    }
+    .noticiabig  .noticiaimg{
+        width: 415px;
+    }
+    .noticiabig  .noticiaimg img{
+        width: 415px;
+    }
+    .logo{
+        float:none;
+        margin: auto;
+    }
+    .noticiabig .noticiatitulo{
+        width:415px;
+        font-size:25px;
+    }
+    .topodir{
+        float:none;
+        margin:auto;
+    }
+    .buscador, .fa-search, .fa-caret-down{
+        display: none;
+    }
+    
+    .conteudo, .ultimasnoticias, .info{
+        display: none;
+    }    
+
+    .menu ul{
+        position: absolute;
+        background-color:#ac3234;
+        z-index: 10;
+        float: none;
+    }
+    .menu li{
+        float: none;
+    }
+    .submenu, .menu li{
+        position: static;
+        display: block;
+    }
+}
