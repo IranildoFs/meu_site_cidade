@@ -1,4 +1,4 @@
-<h1 align="center"> Site de Sugestivo de Fronteira
+<h1 align="center"> Site Sugestivo para Fronteira
 </h1>
 
 
@@ -20,7 +20,7 @@ Este projeto diz para testar meus conhecimentos no posicionamento de elementos n
 ## 🎨 Layout
 
 ### Tela de Adição e Listagem de Repositórios
-
+As imagens estão com tarjas pretas pois não tenho direito sobre elas.
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="pagina1" title="#pagina1" src="./readmeImages/1.png" width="400px">
 </p>
